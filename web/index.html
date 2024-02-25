@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive lighting</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="sensor-reading"></h1>
+        <div class="manual-light">
+            <input type="checkbox" id="manual-label">
+            <label id="label" for="manual-label">Manual light</label>
+        </div>
+        <div class="slidercontainer">
+            <input disabled type="range" min="0" max="254" value="0" class="slider" id="myRange">
+        </div>
+        <h1 id="output"></h1>
+    </div>
+</body>
+
+</html>
